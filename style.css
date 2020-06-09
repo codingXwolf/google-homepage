@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: normal 16px sans-serif;
+    color: #555;
+}
+
+ul,
+nav {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+
+    opacity: 0.9;
+}
+
+a:hover {
+    opacity: 5;
+}
+
+/* Header */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 100px 0;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav li {
+    margin: 0 15px;
+}
+
+header nav li:first-child {
+    margin-left: 0;
+}
+
+header nav li:last-child {
+    margin-right: 0;
+}
+
+/*----------------
+ 	Hero Section
+----------------*/
+
+.hero {
+    position: relative;
+    justify-content: center;
+    bottom: -15em;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.hero h1 {
+    font: bold 60px 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
