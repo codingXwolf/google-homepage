@@ -100,3 +100,18 @@ Google Title
 #google-title .yellow {
     color: yellow;
 }
+
+/* 
+Search Box
+*/
+
+#search-box {
+    border: solid grey;
+    border-radius: 2em;
+    height: 50px;
+    width: 40em;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-family:Arial,
+    FontAwesome
+}
