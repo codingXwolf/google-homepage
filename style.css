@@ -81,6 +81,10 @@ Google Title
     display: inline-flex;
 }
 
+#google-title h1 {
+    font-size: 8em;
+}
+
 #google-title .blue {
     color: blue;
 }
