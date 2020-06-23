@@ -9,6 +9,7 @@ html {
     color: #555;
 }
 
+
 ul,
 nav {
     list-style: none;
@@ -70,4 +71,28 @@ header nav li:last-child {
 .hero h1 {
     font: bold 60px 'Open Sans', sans-serif;
     margin-bottom: 15px;
+}
+
+/* 
+Google Title
+*/
+
+#google-title {
+    display: inline-flex;
+}
+
+#google-title .blue {
+    color: blue;
+}
+
+#google-title .red {
+    color: red;
+}
+
+#google-title .green {
+    color: green;
+}
+
+#google-title .yellow {
+    color: yellow;
 }
