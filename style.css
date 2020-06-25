@@ -30,6 +30,14 @@ li {
     float: left;
 }
 
+li:nth-child(4) {
+    float: right;
+}
+
+li:nth-child(3) {
+    float: right;
+}
+
 li:nth-child(6) {
     float: right;
 }
@@ -40,10 +48,17 @@ li:nth-child(5) {
 
 li a {
     display: block;
-    color: #666;
+    color:black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin: 10px;
+}
+
+li a img {
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
 }
 
 li a:hover:not(.active) {
@@ -81,35 +96,6 @@ a {
 a:hover {
   opacity: 5;
 }
-
-/* Header */
-/* header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 35px 100px 0;
-} */
-
-/* header nav {
-    display: flex;
-}
-
-header nav li {
-    margin: 0 15px;
-}
-
-header nav li:first-child {
-    margin-left: 0;
-}
-
-header nav li:last-child {
-    margin-right: 0;
-} */
 
 /*----------------
  	Hero Section
